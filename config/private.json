@@ -1,0 +1,7 @@
+{
+  "siteUrl": "https://abportal.ab.net/PrivateBanking",
+  "strategy": "OnpremiseUserCredentials",
+  "username": "sp_farm",
+  "password": "f293eda18b43af0c2640e1a66afcc7c2d537a0fff6d4cd735403c902c30ec98136d18e460298719adb180dd7c6feba5899zmcNxrDmg2alGBzuPb0NXPK8x7vFNYYI4Nd4DSf70=",
+  "domain": "ab"
+}
