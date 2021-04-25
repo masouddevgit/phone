@@ -12,9 +12,9 @@ else {
 // const web = new Web("https://portal.golrang.com/services/BGM");
 
 //-----------------------------------------------------------------------------
-export async function remove() {
+export  function getDataGrid() {
 
-    let result = await web.lists.getByTitle('RequestCoin').items
+    let result =  web.lists.getByTitle('RequestCoin').items
         .select('Id', 'Title').get();
 
     // result.forEach(o => o.AuthorTitle = o.Author.Title);
@@ -26,69 +26,4 @@ export async function remove() {
     //     items = result;
     // }
     return result;
-    debugger
-}
-export async function add() {
-
-    let result = await web.lists.getByTitle('RequestCoin').items
-        .select('Id', 'Title').get();
-
-    // result.forEach(o => o.AuthorTitle = o.Author.Title);
-
-    // let items = [];
-    // if (tabId == "cratable") {
-    //     items = checkRole(result, role);
-    // } else {
-    //     items = result;
-    // }
-    return result;
-    debugger
-}
-export async function getDataGrid() {
-
-    let result = await web.lists.getByTitle('RequestCoin').items
-        .select('Id', 'Title').get();
-
-    // result.forEach(o => o.AuthorTitle = o.Author.Title);
-
-    // let items = [];
-    // if (tabId == "cratable") {
-    //     items = checkRole(result, role);
-    // } else {
-    //     items = result;
-    // }
-    return result;
-    debugger
-}
-export async function getDataGrid() {
-
-    let result = await web.lists.getByTitle('RequestCoin').items
-        .select('Id', 'Title').get();
-
-    // result.forEach(o => o.AuthorTitle = o.Author.Title);
-
-    // let items = [];
-    // if (tabId == "cratable") {
-    //     items = checkRole(result, role);
-    // } else {
-    //     items = result;
-    // }
-    return result;
-    debugger
-}
-export async function getDataGrid() {
-
-    let result = await web.lists.getByTitle('RequestCoin').items
-        .select('Id', 'Title').get();
-
-    // result.forEach(o => o.AuthorTitle = o.Author.Title);
-
-    // let items = [];
-    // if (tabId == "cratable") {
-    //     items = checkRole(result, role);
-    // } else {
-    //     items = result;
-    // }
-    return result;
-    debugger
 }
